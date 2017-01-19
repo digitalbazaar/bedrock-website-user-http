@@ -25,6 +25,6 @@
   "peerDependencies": {
     "bedrock": "^1.4.0",
     "bedrock-authn-password": "^3.0.3",
-    "bedrock-mongodb": "^3.2.3",
+    "bedrock-mongodb": "^3.2.3"
   }
 }
