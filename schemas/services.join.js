@@ -55,6 +55,4 @@ const postJoin = {
   additionalProperties: false
 };
 
-module.exports.postJoin = function() {
-  return postJoin;
-};
+module.exports.postJoin = () => postJoin;
