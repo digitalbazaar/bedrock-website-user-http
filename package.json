@@ -3,9 +3,6 @@
   "version": "0.2.0",
   "description": "A Bedrock module that provides an HTTP API for managing users.",
   "main": "./lib",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/bedrock-website-user-http.git"
@@ -20,7 +17,8 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-website-user-http",
   "dependencies": {
-    "async": "^2.1.4"
+    "async": "^1.5.2",
+    "lodash": "^4.17.4"
   },
   "peerDependencies": {
     "bedrock": "^1.4.0",

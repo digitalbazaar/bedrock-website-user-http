@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2012-2017 Digital Bazaar, Inc. All rights reserved.
  */
-var constants = require('bedrock').config.constants;
-var schemas = require('bedrock-validation').schemas;
+const constants = require('bedrock').config.constants;
+const schemas = require('bedrock-validation').schemas;
 
-var postJoin = {
+const postJoin = {
   title: 'Join',
   description: 'Create an Identity',
   type: 'object',
@@ -33,7 +33,8 @@ var postJoin = {
       type: {
         required: true,
         title: 'Property Visibility',
-        description: 'A list of object property IRIs that are publicly visible.',
+        description:
+          'A list of object property IRIs that are publicly visible.',
         type: 'array',
         uniqueItems: true,
         items: {
@@ -45,7 +46,8 @@ var postJoin = {
         },
         errors: {
           invalid: 'Only "owner" and "label" are permitted.',
-          missing: 'Please enter the properties that should be publicly visible.'
+          missing:
+            'Please enter the properties that should be publicly visible.'
         }
       }
     }
