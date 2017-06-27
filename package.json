@@ -1,6 +1,6 @@
 {
   "name": "bedrock-website-user-http",
-  "version": "2.0.1-0",
+  "version": "2.1.0",
   "description": "A Bedrock module that provides an HTTP API for managing users.",
   "main": "./lib",
   "repository": {
