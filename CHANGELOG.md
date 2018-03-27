@@ -1,5 +1,8 @@
 # bedrock-website-user-http ChangeLog
 
+### Changed
+- Update `bedrock-mongodb` peer dependency.
+
 ## 2.1.0 - 2017-06-27
 
 ### Changed
