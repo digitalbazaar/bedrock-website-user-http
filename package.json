@@ -28,7 +28,7 @@
     "bedrock-identity": "^4.2.2",
     "bedrock-key": "^4.0.0",
     "bedrock-mongodb": "3.x - 5.x",
-    "bedrock-permission": "^2.4.3",
-    "bedrock-validation": "^2.2.0"
+    "bedrock-permission": "^2.5.3",
+    "bedrock-validation": "^3.1.0"
   }
 }
