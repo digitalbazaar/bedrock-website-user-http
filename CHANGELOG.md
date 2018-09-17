@@ -1,5 +1,10 @@
 # bedrock-website-user-http ChangeLog
 
+## 3.0.0 - 2018-09-17
+
+### Changed
+- Use bedrock-validation 3.x.
+
 ## 2.1.1 - 2018-03-26
 
 ### Changed
