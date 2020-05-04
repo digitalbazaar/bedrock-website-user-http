@@ -18,7 +18,8 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-website-user-http",
   "dependencies": {
     "async": "^1.5.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "snyk": "^1.317.0"
   },
   "peerDependencies": {
     "bedrock": "^1.4.0",
@@ -30,5 +31,10 @@
     "bedrock-mongodb": "3.x - 5.x",
     "bedrock-permission": "^2.5.3",
     "bedrock-validation": "^3.1.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
